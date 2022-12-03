@@ -12,7 +12,11 @@ body {
   --status-danger-background: var(--old-red);
 
   /* Revert to old font var */
-  --font-display: var(--font-primary);
+  --font-display: var(Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif);
+  --font-korean: var(Whitney,"Apple SD Gothic Neo",NanumBarunGothic,"\B9D1\C740 \ACE0\B515","Malgun Gothic",Gulim,굴림,Dotum,돋움,"Helvetica Neue",Helvetica,Arial,sans-serif);
+  --font-japanese: var(Whitney,"Hiragino Sans","\30D2\30E9\30AE\30CE\89D2\30B4 ProN W3","Hiragino Kaku Gothic ProN",メイリオ,Meiryo,Osaka,"MS PGothic","Helvetica Neue",Helvetica,Arial,sans-serif);
+  --font-chinese-simplified: var(Whitney,"Microsoft YaHei New",微软雅黑,"Microsoft Yahei","Microsoft JhengHei",宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif);
+  --font-chinese-traditional: var(Whitney,"Microsoft JhengHei",微軟正黑體,"Microsoft JhengHei UI","Microsoft YaHei",微軟雅黑,宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif);
 
   /* Found in Discord's CSS file: oldBrand vs newBrand HTML class - here we force old brand vars via copying */
   --brand-experiment-100: #f8f9fd;
